@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript" src="scripts.js"></script>
+</head>
+<body>
+<h1>Calculator</h1>
+<form id="form1">
+    <input type="text" name="amount_1" id="amount_1" /><br />
+
+    <input type="radio" name="sign" id="sign_plus" value="plus" /> +<br />
+    <input type="radio" name="sign" id="sign_minus" value="minus" /> -<br />
+    <input type="radio" name="sign" id="sign_multiply" value="multiply" /> *<br />
+    <input type="radio" name="sign" id="sign_divide" value="divide" /> /<br />
+
+    <input type="text" name="amount_2" id="amount_2" /><br />
+
+    <input type="button" name="submit" value="Calculate" /><br />
+
+    <div class="total">Total: <span></span></div>
+
+</form>
+
+<form id="form2">
+    <input type="text" name="expression" id="expression" />
+
+    <input type="button" name="submit" value="Calculate" />
+
+    <div class="total">Total: <span></span></div>
+
+</form>
+
+</body>
+</html>
